@@ -1,0 +1,120 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    background-color: #01b0f1;
+  }
+  .sidebarSection{
+     display: flex;
+     font-size: 15px;
+  }
+  
+  .imageIcon{
+    width: 20px;
+    height: 20px;
+   margin-top: -15px;
+  }
+  
+  .logoText{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 5px;
+  }
+  
+  .rightbarConatiner{
+    flex-grow: 1;
+  }
+  
+  
+  .leftbar{
+    background-color: #d9d9d9;
+    margin-right: 2px;
+    border-left: 1px solid #818c9b;
+    padding: 5px;
+    padding-right: 40px;
+  }
+  
+  .leftbarParent{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-top: 5px;
+  }
+  
+  .leftbarChild{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -5px;
+    cursor: pointer;
+  }
+  
+  .leftbarOptions{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+    margin-bottom: 10px;
+  }
+  
+  .leftbarOptions a{
+    margin-bottom: 3px;
+    text-decoration: none;
+  }
+
+  .rightBar{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    background-color: beige;
+    padding: 15px;
+  
+  }
+  .rightBarLogo{
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .searchSection{
+    display:flex;
+    gap:5px;
+    align-items:center;
+}
+  
+  
+  /* styling the table section  */
+  
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 3px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 10px;
+  }
+  
+  
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  td{
+    background-color: #f9f9f9;
+  
+  }
+  
+  th{
+    background-color: #45546c;
+    color: white;
+  }
